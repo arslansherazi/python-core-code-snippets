@@ -1,0 +1,17 @@
+//Follow the following directories(path) one by one to Find portno,host and SID and of Oracle Database 11g
+
+1.	go to C Drive
+2.	oraclexe
+3.	app
+4.	oracle
+5.	product
+6.	11.2.0(folder with the name of oracle version)
+7.	server
+8.	network
+9.	ADMIN
+10.	listner.ora (it is a file which contains the host and port no)
+11. tnsnames.ora (it is a file which also contains host,port no as well as SID)
+
+//The complete path is as follows
+
+C -> oraclexe -> app -> oracle -> product -> 11.2.0 -> server -> network -> ADMIN -> listner.ora / tnsnames.ora (both files are located in the same directory we use tnsnames.ora because it contains all 3 required things but we can also use listner .ora but it contains only portno and host not SID.for SID we still require tnsnames.ora)

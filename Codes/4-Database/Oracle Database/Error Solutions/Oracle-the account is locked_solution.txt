@@ -1,0 +1,10 @@
+//Solution of ORACLE ERROR:ORA-28000: the account is locked
+
+Run the Following command on Oracle command prompt.
+
+
+1. connect system as sysdba
+2. alter user arslanhaider account unlock;
+3. grant connect, resource to arslanhaider;
+
+//scott is a username which can be changed.

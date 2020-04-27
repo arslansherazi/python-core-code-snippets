@@ -1,0 +1,4 @@
+=> push library on github and execute following command to install libarary as external python package
+   pip install git+https://www.gitlab.com/arslansherazi/py_sql.git
+=> Command to install python library from specific branch
+   pip install git+https://www.gitlab.com/arslansherazi/py_sql.git@branch_name

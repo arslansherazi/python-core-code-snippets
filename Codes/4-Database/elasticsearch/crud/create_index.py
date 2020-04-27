@@ -1,0 +1,20 @@
+"""
+    Important points::
+    => if elastic search is running on different host instead of localhost:9200 then pass the host as argument to
+       Elasticsearch class
+       Syntax::
+       Elasticsearch(host)
+"""
+from elasticsearch import Elasticsearch
+from elasticsearch.client import IndicesClient
+
+
+if __name__ == '__main__':
+    es_client = Elasticsearch()  # default host = localhost:9200
+    es_indices_client = IndicesClient(es_client)
+    index_name = 'students_index'
+    if es_indices_client.exists(index_name):
+        print('index {} already exists'.format(index_name))
+    else:
+        es_indices_client.create(index=index_name)
+        print('index {} created successfully'.format(index_name))
