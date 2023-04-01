@@ -1,9 +1,0 @@
-=> Make new user account with name "Postgres" and make it Administrator.
-=> Give the path other than "Programme Files" in C:\
-=> Software saves its files in "PostgreSQL" Folder in the given Path.
-=> Right Click on this Folder and go to security Tab.
-=> Click on "Edit" then "Add" and add new user with name "Postgres"
-=> Give Full Control to this user by check the check-box of Full Control Option.
-=> After This Install the Software in that Folder.
-=> Note that: Error window will appear but it has no harm.
-=> Use the Software from this particular account.It doent work from other accounts.
